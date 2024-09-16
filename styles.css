@@ -16,33 +16,48 @@ html, body {height: 100%;}
     ". main main main aside"
     ". main main main aside"
     ". footer footer footer footer";
-
+    margin: 3px;
     gap: 3px;
+    padding: 3px;
+    border: 32px solid rgb(255, 208, 0);
 
 }
 
 header{
     grid-area:header;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(151, 0, 0);
+    border: 2px solid black;
+    text-align: justify;
+    align-content: center;
+}
+
+.big{
+    font-size: 10em;
+    text-align: justify;
+    
 }
 
 main{
     grid-area: main;
     background-color: rgb(132, 0, 255);
+    border: 2px solid black;
+    align-content: center;
 }
 
 aside{
     grid-area: aside;
     background-color: rgb(0, 180, 252);
+    border: 2px solid black;
 }
 
 footer{
     grid-area: footer;
     background-color: rgb(9, 255, 0);
+    border: 2px solid black;
 }
 
 .content > * {
-    color:aqua;
+    color:rgb(255, 0, 255);
     text-align: center;
     padding: 10px;
 }
