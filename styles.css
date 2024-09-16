@@ -37,6 +37,16 @@ header{
     
 }
 
+.bitch{
+    font-size: 2em;
+    font-style: italic;
+}
+
+.image{
+    width:100%;
+    border: 6px solid black;
+}
+
 main{
     grid-area: main;
     background-color: rgb(132, 0, 255);
