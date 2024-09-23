@@ -19,13 +19,13 @@ html, body {height: 100%;}
     margin: 3px;
     gap: 3px;
     padding: 3px;
-    border: 32px solid rgb(255, 208, 0);
+    border: 32px solid rgb(17, 65, 110);
 
 }
 
 header{
     grid-area:header;
-    background-color: rgb(151, 0, 0);
+    background-color:hsla(215, 100%, 51%, 0.377);
     border: 2px solid black;
     text-align: justify;
     align-content: center;
@@ -49,25 +49,25 @@ header{
 
 main{
     grid-area: main;
-    background-color: rgb(132, 0, 255);
+    background-color: rgb(140, 170, 184);
     border: 2px solid black;
     align-content: center;
 }
 
 aside{
     grid-area: aside;
-    background-color: rgb(0, 180, 252);
+    background-color: rgb(133, 220, 255);
     border: 2px solid black;
 }
 
 footer{
     grid-area: footer;
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(107, 171, 187);
     border: 2px solid black;
 }
 
 .content > * {
-    color:rgb(255, 0, 255);
+    color:rgb(113, 138, 155);
     text-align: center;
     padding: 10px;
 }
